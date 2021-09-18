@@ -9,8 +9,8 @@ const Home = () => {
                 <div className="search_input">
                     <div className="input-group mb-3">
                         <input type="text" className="form-control shadow-sm" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
-                        <div class="input-group-append ml-3">
-                            <button class="btn my-2 my-sm-0" type="submit"><i class="bi bi-search"></i></button>
+                        <div className="input-group-append ml-3">
+                            <button className="btn my-2 my-sm-0" type="submit"><i className="bi bi-search"></i></button>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Home = () => {
                 </div>
 
                 <div className="text-center mt-4 load_more_btn">
-                    <button type="button" class="btn btn-dark">load more</button>
+                    <button type="button" className="btn btn-dark">load more</button>
                 </div>
             </div>
         </div>
